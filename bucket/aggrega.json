@@ -1,0 +1,27 @@
+{
+    "##": "Written by every Aggrega release from packaging/scoop/aggrega.json.in in https://github.com/aggrega-ai/aggrega-cli; a change made here is replaced by the next release.",
+    "version": "0.8.7",
+    "description": "Deterministic ahead-of-time compiler for deployment artifacts",
+    "homepage": "https://aggrega.ai",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.8.7/aggrega-0.8.7-windows-amd64.exe#/aggrega.exe",
+            "hash": "3f21446125deac532bc07a86e92d7328329f3addb1472130e44da1cf41c3dbf4"
+        }
+    },
+    "bin": "aggrega.exe",
+    "checkver": {
+        "github": "https://github.com/aggrega-ai/aggrega-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aggrega-ai/aggrega-cli/releases/download/v$version/aggrega-$version-windows-amd64.exe#/aggrega.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
