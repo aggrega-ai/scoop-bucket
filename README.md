@@ -13,7 +13,7 @@ scoop install aggrega
 
 Scoop installs the binary for Windows on 64-bit x86 as `aggrega.exe`, downloaded from the Aggrega release on GitHub and checked against the SHA-256 digest the manifest gives it, and makes it reachable as `aggrega` through the folder of shims it keeps on your `PATH`. After a new release, `scoop update` refreshes the buckets and `scoop update aggrega` updates it.
 
-Scoop installs into its own folders, and updates only the copy it installed. Use one way of installing Aggrega on a machine: [Setup](https://aggrega.ai/docs/authoring/setup/#install-with-a-package-manager) describes the others.
+Scoop installs into its own folders, and updates only the copy it installed. Use one way of installing Aggrega on a machine: [Install](https://aggrega.ai/docs/install/#install-with-a-package-manager) describes the others.
 
 ## Where these files come from
 
