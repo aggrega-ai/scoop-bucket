@@ -18,3 +18,7 @@ Scoop installs into its own folders, and updates only the copy it installed. Use
 ## Where these files come from
 
 `bucket/aggrega.json` is written by every Aggrega release, from a template in [aggrega-ai/aggrega-cli](https://github.com/aggrega-ai/aggrega-cli), and names that release's binary and its digest. Do not edit it by hand: the next release replaces it. A change to the manifest is made to the template there.
+
+## License
+
+The Aggrega Scoop bucket is released under the Apache License, Version 2.0; the full text is in the [`LICENSE`](LICENSE) file.
